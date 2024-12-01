@@ -13,7 +13,8 @@ ul {
 a {
   text-decoration: none;
 }
-
+img {
+  max-width: 100%;}
 :root {
   --green: #426b1f;
   --black: #000000;
