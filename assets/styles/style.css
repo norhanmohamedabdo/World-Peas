@@ -9,7 +9,7 @@ ul {
 a {
   text-decoration: none;
 }
-img{
+img {
   max-width: 100%;
 }
 :root {
@@ -28,41 +28,52 @@ img{
     width: 1170px;
   }
 }
-.Browse-the-store .container{
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
+.Browse-the-store .container {
   text-align: center;
   justify-content: center;
   margin-top: 90px;
 }
-.Browse-the-store h1{
+.Browse-the-store h1 {
   font-family: "Newsreader", serif;
   font-weight: normal;
-  font-size:54px;
+  font-size: 54px;
   line-height: 120%;
   letter-spacing: -2%;
   color: var(--black);
 }
-.Browse-the-store .Browse-btn{
+.Browse-the-store .Browse-btn {
   display: block;
   width: fit-content;
   margin: 40px auto;
   text-align: center;
-padding: 10px  ;
-border-radius: 8px;
-border: none;
-outline: none;
-line-height: 120%;
-font-size: 15px;
-font-family: "Inter", sans-serif;
-background-color: var(--green);
-color: var(--white);
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  line-height: 120%;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  background-color: var(--green);
+  color: var(--white);
 }
-/* .hero .container{
+.hero {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
-  margin-top: 80px;
-} */
+  gap: 25px;
+  margin-top: 100px;
+}
+.hero .vegetable {
+  margin-left: 40px;
+}
+.banger-img {
+  width: 680px;
+  height: 480px;
+}
+.hero P {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.2px;
+  letter-spacing: -1;
+}
