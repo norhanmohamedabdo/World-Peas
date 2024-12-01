@@ -1,58 +1,65 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-ul{
+ul {
   list-style: none;
-  }
-  a{
-    text-decoration: none;
-  }
-
-:root{
-  --green:#426B1F;
---black:#000000;
---white:white;
+}
+a {
+  text-decoration: none;
 }
 
-header{
-  width: 100%;
+:root {
+  --green: #426b1f;
+  --black: #000000;
+  --white: white;
+  --bg: #fafaf5;
+  -ms-grid-layer: #6d6d6d;
+}
+.container {
+  padding: 0 20px;
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+header {
   position: sticky;
   top: 0;
-  padding: 41px 96px;
+  padding: 20px;
+  background-color: var(--white);
+}
+header .container {
   display: flex;
   justify-content: space-between;
-  text-align: center;
   align-items: center;
-
 }
-header .logo{
+header .logo a {
+  font-family: "Newsreader", serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 32px;
   letter-spacing: -1;
   color: var(--green);
 }
-header ul {
+header nav ul {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  gap: 15px;
 }
-header ul li  {
-   padding-left: 20px; 
-  font-family:"Inter", sans-serif; 
- font-weight: 300;
- font-size: 15px;
- line-height: 20.8px;
- letter-spacing: -1;
+header nav ul li a {
+  line-height: 20.8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
   color: var(--black);
 }
-header ul li a{
-   padding: 10px 15px;
+header nav ul li .btn {
+  padding: 10px 15px;
   border-radius: 8px;
-  font-weight: 300;
-  font-size: 13px;
   background-color: var(--green);
   color: var(--white);
 }
