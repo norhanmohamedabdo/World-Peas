@@ -31,3 +31,7 @@ img {
     width: 1170px;
   }
 }
+.heading .container{
+  display: flex;
+  
+}
