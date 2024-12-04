@@ -19,6 +19,7 @@ img {
   --white: white;
   --bg: #fafaf5;
   -ms-grid-layer: #6d6d6d;
+    --gray:#C2C2C2;
 }
 .container {
   padding: 0 20px;
@@ -34,7 +35,7 @@ img {
   align-items: center;
   margin-top: 40px;
   padding-bottom: 18PX;
-  border-bottom: 1px solid #6d6d6dbd;
+  border-bottom: 1px solid #C2C2C2;
   color: var(--black);
 }
 .heading .container h1{
