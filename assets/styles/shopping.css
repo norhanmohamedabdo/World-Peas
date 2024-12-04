@@ -1,3 +1,5 @@
+
+
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +11,8 @@ ul {
 a {
   text-decoration: none;
 }
-
+img {
+  max-width: 100%;}
 :root {
   --green: #426b1f;
   --black: #000000;
@@ -25,4 +28,27 @@ a {
   .container {
     width: 1170px;
   }
+}
+.heading .container{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 18PX;
+  border-bottom: 1px solid #6d6d6dbd;
+  color: var(--black);
+}
+.heading .container h1{
+  font-weight: 400;
+  font-size: 64px;
+  font-family: "Newsreader", serif;;
+  line-height: 46px;
+  letter-spacing: -2%;
+}
+.heading .container span{
+  font-weight: 300;
+  font-size: 14px;
+  font-family:"Inter", sans-serif; 
+  line-height: 23px;
+  margin-top: 17px;
+  margin-left: 20px;
 }
