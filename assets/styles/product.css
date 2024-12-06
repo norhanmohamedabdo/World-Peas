@@ -94,28 +94,32 @@ img {
 }
 .hero .container .products .product {
   width: 300px;
-  height: 380px;
+  height: 340px;
   border-radius: 20px;
   border: 1px solid #e6e6e6;
   background-color: var(--bg);
 }
 .hero .container .products .product .product-info {
   padding: 20px;
-      font-family: "Inter", sans-serif;
+  position: relative;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 26px;
 }
-.product-img {
-  width: 100%;
+.product-img img {
+  width: 300px;
+  height: 220px;
+  border-radius: 20px 20px 0 0;
 }
 
-
-.product-info span{
+.product-info span {
   color: var(--green);
 }
-.product-info p{
+.product-info p {
   font-size: 16px;
   font-weight: 400;
   color: var(--grid-layer);
+  position: absolute;
+  bottom: -7px;
 }
