@@ -91,7 +91,9 @@ img {
 }
 .hero .container .products {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
+  overflow: hidden;
 }
 .hero .container .products .product {
   width: 300px;

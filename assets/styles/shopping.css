@@ -1,5 +1,3 @@
-
-
 * {
   padding: 0;
   margin: 0;
@@ -12,14 +10,15 @@ a {
   text-decoration: none;
 }
 img {
-  max-width: 100%;}
+  max-width: 100%;
+}
 :root {
   --green: #426b1f;
   --black: #000000;
   --white: white;
   --bg: #fafaf5;
   -ms-grid-layer: #6d6d6d;
-    --gray:#C2C2C2;
+  --gray: #c2c2c2;
 }
 .container {
   padding: 0 20px;
@@ -30,52 +29,92 @@ img {
     width: 1170px;
   }
 }
-.heading .container{
+.heading .container {
   display: flex;
   align-items: center;
   margin-top: 40px;
-  padding-bottom: 18PX;
-  border-bottom: 1px solid #C2C2C2;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #c2c2c2;
   color: var(--black);
 }
-.heading .container h1{
+.heading .container h1 {
   font-weight: 400;
   font-size: 64px;
-  font-family: "Newsreader", serif;;
+  font-family: "Newsreader", serif;
   line-height: 46px;
   letter-spacing: -2%;
 }
-.heading .container span{
+.heading .container span {
   font-weight: 300;
   font-size: 14px;
-  font-family:"Inter", sans-serif; 
+  font-family: "Inter", sans-serif;
   line-height: 23px;
   margin-top: 17px;
   margin-left: 20px;
 }
-.hero .container{
+.products .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 40px;
-  gap: 35px;
+  gap: 100px;
 }
-/* .hero .product-list{
-  flex-grow: 1;
+.products .container .product{
+margin-bottom: 30px; 
+ background-color: var(--bg);
+  border: 1px solid #e6e6e6;
+border-radius: 24px;
+  overflow: hidden;
+  
 }
-.hero .product-list .content{
+.products-list{
+  flex-grow: 3;
+}
+.products-list .product{
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  justify-content:space-between ;
+  gap: 100px;
+
+  
+  
+}
+
+.products .product-detalis{
+  display: flex;
+  align-items: center;
+    gap: 30px;
+}
+.product .product-img img{
+  width: 300px;
+  border-radius: 20px 0 0 20px;
+}
+.products .product-detalis .product-info{
+
+}
+.products .product-price{
+  padding: 20px;
+}
+.older-summary{
+  flex-grow: 1;
+  padding: 20px;
+  height: 250px;
   background-color: var(--bg);
   border: 1px solid #e6e6e6;
   border-radius: 24px;
-  overflow: hidden;
 }
-.hero .product-list .content .product-details{
+.older-summary h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul li {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
-.hero .product-list .content .information h2{
-  font-family: ;
-} */
+.older-summary a{
+  display: block;
+   margin-top: 20px;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   background-color: var(--gray)
+}
